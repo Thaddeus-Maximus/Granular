@@ -20,7 +20,7 @@ VPIN_THRESH = 2
 dist = 0
 armed = 1
 thresh = 10
-dist_hist = [25 for i in range(10)]
+dist_hist = [25 for i in range(30)]
 
 def move_average(new_dist):
 	global dist_hist
